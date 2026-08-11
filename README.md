@@ -1,2 +1,2 @@
 # electroSim
-A quick C 3D electrostatic simulation using raylib
+A quick 3D electrostatic simulation using C and raylib
