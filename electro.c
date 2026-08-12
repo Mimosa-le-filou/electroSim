@@ -18,8 +18,8 @@ const float CUBE_D = 30;
 const float RADIUS = 0.2;
 const float SPEED = 10;
 //---------------------------------------------------------------------------------
+//
 // Typedefs 
-
 typedef struct {
 	int sign;
 	float x, y, z;
@@ -31,6 +31,8 @@ typedef struct {
 Charge charges[CHARGES_NUMBER];
 
 
+
+// Function definitions
 void InitCharges(){
 	for(int i = 0; i< CHARGES_NUMBER; i++){
 		charges[i].sign = (i < CHARGES_NUMBER/2) ? -1 : 1;
@@ -169,6 +171,7 @@ void Chaos(){
 }
 
 
+
 int main(void){
 	// Initialization
 	InitWindow(SCREENWIDTH, SCREENHEIGHT, "3D electrostatic simulation");
@@ -201,13 +204,15 @@ int main(void){
 			
 			camera.position = Vector3Add(camera.target, view);	
 		}
+
+
+		// Creating movement
 		if (IsMouseButtonDown(MOUSE_RIGHT_BUTTON)){
 			Chaos();
 		}
 
 
 		// Draw
-
 		BeginDrawing();
 			ClearBackground(BLACK);
 			BeginMode3D(camera);
