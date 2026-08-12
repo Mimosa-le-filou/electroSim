@@ -7,7 +7,7 @@ This tiny project is inspired by [Daniel Hirsch](https://www.youtube.com/watch?v
 First, clone this repo:\
 git clone https://github.com/Mimosa-le-filou/electroSim
 
-The raylib library is also needed to run the simulation :\
+The raylib library is also needed to run the simulation:
 
 ### Arch
 sudo pacman -S raylib
