@@ -1,13 +1,13 @@
 # ElectroSim
 
-A quick 3D electrostatic simulation using C and raylib
+A quick 3D electrostatic simulation using C and raylib.\
 This tiny project is inspired by [Daniel Hirsch](https://www.youtube.com/watch?v=pbAse_S2-q0&t=2128s&pp=ygURZWxlY3Ryb3N0YXRpYyBzaW0%3D)
 
 ## Installation
-First, clone this repo
+First, clone this repo\
 git clone https://github.com/Mimosa-le-filou/electroSim
 
-The raylib library is also needed to run the simulation :
+The raylib library is also needed to run the simulation :\
 
 ### Arch
 sudo pacman -S raylib
