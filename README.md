@@ -4,7 +4,7 @@ A quick 3D electrostatic simulation using C and raylib.\
 This tiny project is inspired by [Daniel Hirsch](https://www.youtube.com/watch?v=pbAse_S2-q0&t=2128s&pp=ygURZWxlY3Ryb3N0YXRpYyBzaW0%3D)
 
 ## Installation
-First, clone this repo\
+First, clone this repo:\
 git clone https://github.com/Mimosa-le-filou/electroSim
 
 The raylib library is also needed to run the simulation :\
@@ -27,8 +27,8 @@ Execute the following command:
 
 ## Usage
 The simulation launches a 1000x650 window in which you can do several things:
-	- zoom in and out using mouse scroll
-	- Move the camera around the cube using left mouse click
-	- Create chaos using right mouse click
+- zoom in and out using mouse scroll
+- Move the camera around the cube using left mouse click
+- Create chaos using right mouse click
 
 Enjoy !
