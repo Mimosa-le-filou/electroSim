@@ -22,7 +22,7 @@ You probably know how to use your packet manager
 Hah.
 
 ## Running the simulation
-Execute the following command:
+Execute the following command:\
 	gcc electro.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 && ./a.out
 
 ## Usage
