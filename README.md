@@ -3,6 +3,9 @@
 A quick 3D electrostatic simulation using C and raylib.\
 This tiny project is inspired by [Daniel Hirsch](https://www.youtube.com/watch?v=pbAse_S2-q0&t=2128s&pp=ygURZWxlY3Ryb3N0YXRpYyBzaW0%3D)
 
+<img width="634" height="524" alt="image" src="https://github.com/user-attachments/assets/5db8ee93-dc32-41c3-9f6e-521466cb1b32" />
+
+
 ## Installation
 First, clone this repo:\
 git clone https://github.com/Mimosa-le-filou/electroSim
